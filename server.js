@@ -206,13 +206,13 @@ function addEmp() {
               name: "role_id",
               type: "list",
               message: "Employee's role:",
-              choices: "manager,engineer,accountant,recuriter,sales person"
+              choices: ["manager, engineer, accountant,recuriter,sales person"],
             },
             {
               name: "manager",
               type: "list",
-              message: "Employee's role:",
-              choices: "manager,engineer,accountant,recuriter,sales person"
+              message: "Employee's manager:",
+              
             },
 
             )
